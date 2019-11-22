@@ -34,7 +34,7 @@ setup(
     ),
     author='Francesco Urbani',
     author_email='francescourbanidue@gmail.com',
-    url='https://https://github.com/urbanij/ccomplex/urbanij/python-ccomplex',
+    url='https://github.com/urbanij/python-ccomplex',
     packages=find_packages('src'),
     package_dir={'': 'src'},
     py_modules=[splitext(basename(path))[0] for path in glob('src/*.py')],
@@ -66,7 +66,7 @@ setup(
     project_urls={
         'Documentation': 'https://python-ccomplex.readthedocs.io/',
         'Changelog': 'https://python-ccomplex.readthedocs.io/en/latest/changelog.html',
-        'Issue Tracker': 'https://https://github.com/urbanij/ccomplex/urbanij/python-ccomplex/issues',
+        'Issue Tracker': 'https://github.com/urbanij/python-ccomplex/issues',
     },
     keywords=[
         # eg: 'keyword1', 'keyword2', 'keyword3',

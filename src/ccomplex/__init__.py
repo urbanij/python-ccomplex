@@ -17,10 +17,9 @@ class ccomplex(complex):
         
         elif                         repr_imag_part == 0: return str(repr_real_part)
 
-        elif                         repr_imag_part > 0:  return f"{repr_real_part}+j{repr_imag_part}"
-        elif                         repr_imag_part < 0:  return f"{repr_real_part}-j{-repr_imag_part}"
+        elif                         repr_imag_part > 0:  return f"{repr_real_part} + j{repr_imag_part}"
+        elif                         repr_imag_part < 0:  return f"{repr_real_part} - j{-repr_imag_part}"
 
         else:                                             return f"{complex(self)}"     # should never be reached 
-
 
 

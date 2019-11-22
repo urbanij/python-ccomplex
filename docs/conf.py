@@ -25,8 +25,8 @@ version = release = '0.0.0'
 pygments_style = 'trac'
 templates_path = ['.']
 extlinks = {
-    'issue': ('https://https://github.com/urbanij/ccomplex/urbanij/python-ccomplex/issues/%s', '#'),
-    'pr': ('https://https://github.com/urbanij/ccomplex/urbanij/python-ccomplex/pull/%s', 'PR #'),
+    'issue': ('https://github.com/urbanij/python-ccomplex/issues/%s', '#'),
+    'pr': ('https://github.com/urbanij/python-ccomplex/pull/%s', 'PR #'),
 }
 # on_rtd is whether we are on readthedocs.org
 on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
