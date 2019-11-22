@@ -1,9 +1,12 @@
-""" $ pytest ccomplex.py -v """
+from ccomplex.cli import main
+
+def test_main():
+    assert main([]) == 0
+
+
 
 
 from ccomplex import ccomplex
-import pytest
-
 
 def test():
     assert str(ccomplex(0.0 + 0j))   == '0'
@@ -21,6 +24,7 @@ def test_approx():
     assert str(ccomplex(4/5))           == '0.8'
     assert str(ccomplex(1e-12+32.2j))   == 'j32.2'
     assert str(ccomplex(1e14+.22j))     == '100000000000000'
+    assert str(ccomplex(.32+1e-22j))     == '0.32'
     
 
     

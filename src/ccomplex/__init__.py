@@ -1,17 +1,5 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
+__version__ = '0.0.0'
 
-"""
-Created on Sun Nov 10 11:00:27 CET 2019
-
-@author(s)   : Francesco Urbani
-@file        : ccomplex.py
-@descritpion : better representation of complex numbers, e.g.:
-               (2.0+4.1j)   ->    2+j4.1
-               (23-0j)      ->    23
-               (0-32j)      ->    -j32
-
-"""
 
 class ccomplex(complex):
     def __str__(self):   
@@ -33,5 +21,6 @@ class ccomplex(complex):
         elif                         repr_imag_part < 0:  return f"{repr_real_part}-j{-repr_imag_part}"
 
         else:                                             return f"{complex(self)}"     # should never be reached 
+
 
 
