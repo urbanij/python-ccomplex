@@ -25,7 +25,7 @@ def read(*names, **kwargs):
 
 setup(
     name='ccomplex',
-    version='0.0.0',
+    version='0.0.1',
     license='BSD-2-Clause',
     description='improved representation of Python complex numbers',
     long_description='%s\n%s' % (
